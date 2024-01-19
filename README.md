@@ -1,8 +1,58 @@
-This simple web application showcases the ability to create, read, update, and delete data.
+![Cover](https://i.imgur.com/zo9hVvQ.png)
 
-![Cover](./pic/cover.png)
+# 🔥 Management System Clients
+This simple web application showcases the ability to create, read, update, delete data and filter. 
+Optimization of calculated routes was also carried out.
 
-## Built With
+## 🔨 Instructions
+
+First Step:
+```
+- Clone Repository: git clone https://github.com/ThiagolFPereira/Customer-Management.git
+```
+
+Second Step:
+```
+- Access the project folder
+```
+
+Third Step:
+```
+- Run the Command: docker compose up -d (It will create the docker container for postgres)
+```
+
+Fourth
+```
+- Then run the command ./script.sh
+```
+
+With a database manager that has postgres:
+
+```
+user: "root",
+host: "localhost",
+database: "db_management",
+password: "root",
+port: 5432
+
+Create the database table
+
+CREATE TABLE public.users (
+	id bigserial NOT NULL,
+	"name" varchar(200) NOT NULL,
+	email varchar(200) NOT NULL,
+	phone varchar(50) NULL DEFAULT NULL::character varying,
+	latitude varchar(50) NULL DEFAULT NULL::character varying,
+	longitude varchar(50) NULL DEFAULT NULL::character varying
+);
+```
+
+### ⚙️ Pre-Requisites
+
+- Nodejs
+- Docker
+
+### 📦 Technologies Used 
 
 * [React](https://reactjs.org/docs/create-a-new-react-app.html) - JavaScript library for building user interfaces
 * [Node](https://www.npmjs.com/package/node) - JavaScript runtime built on Chrome's V8 JavaScript engine
@@ -11,9 +61,4 @@ This simple web application showcases the ability to create, read, update, and d
 
 
 ## Authors
-
-* **Jameson Campbell** - *Initial work* - [Github](https://github.com/JamesonC)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* Thiago Pereira (https://github.com/ThiagolFPereira)
