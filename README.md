@@ -49,12 +49,12 @@ CREATE TABLE public.users (
 
 ### ⚙️ Pre-Requisites
 
-- Nodejs
+- Nodejs 
 - Docker
 
 ### 📦 Technologies Used 
 
-* [React](https://reactjs.org/docs/create-a-new-react-app.html) - JavaScript library for building user interfaces
+* [React] 16.13.1 (https://reactjs.org/docs/create-a-new-react-app.html) - JavaScript library for building user interfaces
 * [Node](https://www.npmjs.com/package/node) - JavaScript runtime built on Chrome's V8 JavaScript engine
 * [Express](https://expressjs.com/) - Node.js web application framework
 * [PostgreSQL](https://www.postgresql.org/) - a free and open-source relational database management system emphasizing extensibility and SQL compliance.
