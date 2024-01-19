@@ -21,7 +21,7 @@ Third Step:
 - Run the Command: docker compose up -d (It will create the docker container for postgres)
 ```
 
-Fourth
+Fourth Step:
 ```
 - Then run the command ./script.sh
 ```
