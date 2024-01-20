@@ -21,11 +21,6 @@ Third Step:
 - Run the Command: docker compose up -d (It will create the docker container for postgres)
 ```
 
-Fourth Step:
-```
-- Then run the command ./start.sh
-```
-
 With a database manager that has postgres:
 
 ```
@@ -45,6 +40,11 @@ CREATE TABLE public.users (
 	latitude varchar(50) NULL DEFAULT NULL::character varying,
 	longitude varchar(50) NULL DEFAULT NULL::character varying
 );
+```
+
+Fourth Step:
+```
+- Then run the command ./start.sh
 ```
 
 ### ⚙️ Pre-Requisites
