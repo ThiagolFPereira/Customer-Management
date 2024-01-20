@@ -23,7 +23,7 @@ Third Step:
 
 Fourth Step:
 ```
-- Then run the command ./script.sh
+- Then run the command ./start.sh
 ```
 
 With a database manager that has postgres:
